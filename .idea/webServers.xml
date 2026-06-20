@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff047665-b29c-4186-a7db-5783b5429322" name="yolo prune">
+        <fileTransfer rootFolder="/root/autodl-tmp/prun/yolov8-prune-main" accessType="SFTP" host="root@connect.cqa1.seetacloud.com" port="33754" sshConfigId="cd38564b-ea37-446a-a4fa-18c3c60e1858" sshConfig="root@root@connect.cqa1.seetacloud.com:33754 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
