@@ -2,6 +2,20 @@
 
 这是一个实时3D物体检测系统，将用于物体检测的YOLOv11与用于深度估计的Depth Anything v2相结合，从而生成伪3D边界框并实现BEV可视化。
 
+## 项目结构
+
+```
+YOLO-3D/
+
+│── run.py                  # 主脚本
+│── detection_model.py      # YOLOv11 目标检测
+│── depth_model.py          # Depth Anything v2 深度估计
+│── bbox3d_utils.py         # 3D 边界框
+│── load_camera_params.py   # 相机参数
+├── requirements.txt            # 项目依赖
+└── README.md                   
+```
+
 ## 特点
 
 - 使用 YOLOv11 进行实时目标检测
@@ -67,19 +81,7 @@ python run.py
   - `enable_bev`: BEV可视化
   - `enable_pseudo_3d`: 3D可视化
 
-## 项目结构
 
-```
-YOLO-3D/
-
-│── run.py                  # 主脚本
-│── detection_model.py      # YOLOv11 目标检测
-│── depth_model.py          # Depth Anything v2 深度估计
-│── bbox3d_utils.py         # 3D 边界框
-│── load_camera_params.py   # 相机参数
-├── requirements.txt            # 项目依赖
-└── README.md                   
-```
 
 ## 工作流
 
